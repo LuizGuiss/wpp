@@ -36,18 +36,10 @@ function Principal() {
             element="button"
             number={tel}
             message={msg}
-            // message={
-            //   (horaAtual > 11 && horaAtual < 18) ? 'Boa tarde, nome' :
-            //     (horaAtual > 17 && horaAtual < 25) ? 'Boa noite, Vava' :
-            //       'Bom dia, Vava'
-            // }
+          
           />
         </div>
       </div>
-
-      {/* <button className="confirm-button" type="submit">
-        Confirmar
-      </button> */}
     </form>
 
   );
